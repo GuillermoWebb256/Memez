@@ -1,19 +1,18 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import MyComponent from './Header.jsx';
-import Meme from './Meme.jsx';
+import { createRoot } from 'react-dom';
 import './styles/style.css';
+import Header from './Header';
+import Meme from './Meme';
 
 
-const App = () => {
-  return (
-    <div>
-      <MyComponent />
-      <Meme />
-      
-    </div>
-  );
-};
 
-ReactDOM.render(<App />, document.getElementById('root'));
+createRoot(document.getElementById('root')).render(
+  <>
+    <Header />
+    <Meme />
+  
+  </>
+);
+
+
 

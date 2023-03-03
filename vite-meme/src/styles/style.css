@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: rgb(154, 6, 132);
     background-image: radial-gradient(white 1px, transparent 1px), radial-gradient(white 1px, transparent 1px);
     background-size: 5px 5px;
     background-position: 0 0, 2.5px 2.5px;
